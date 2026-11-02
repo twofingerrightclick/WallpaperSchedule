@@ -1,0 +1,41 @@
+.build/
+build/
+.DS_Store
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+.vscode/
+.idea/
+.codex/
+.agents/
+
+# Local build identity, credentials, and signing material.
+.local-bundle-identifier
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.key
+*.pem
+*.mobileprovision
+.aws/
+.ssh/
+
+# Distribute compiled artifacts separately from source history.
+*.app/
+*.zip
+*.dmg
+
+# Runtime preferences and recovery files must never enter the repository.
+Schedule.json
+SchedulerStatus.json
+WorkerPlanWindow.json
+OriginalWallpaper.plist
+PreviousWallpaper.plist
+Instance.lock
+SchedulerOperation.lock
+ShowWindow.request
+*.log
